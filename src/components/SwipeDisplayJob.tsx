@@ -86,7 +86,9 @@ export const SwipeDisplayJob = ({
       >
         <Box>
           <Typography variant="caption">Distance</Typography>
-          <Typography color="white">{milesToTravel.toFixed(2)} km</Typography>
+          <Typography color="white">
+            {milesToTravel.toFixed(2)} miles
+          </Typography>
         </Box>
         <Box>
           <Typography variant="caption">Hourly Rate</Typography>
